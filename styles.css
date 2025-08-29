@@ -45,3 +45,20 @@ nav, ul, li, a {
 nav, ul, li, a.active {
     font-weight: bold;
 }
+
+.hero {
+    background: url("foto1.jpeg") center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.hero-content {
+    background: rgba (0,0,0,0.4);
+    padding: 20px
+}
